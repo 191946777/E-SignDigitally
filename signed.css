@@ -1,0 +1,65 @@
+h1{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 40px;
+  color: #538392 ;
+  
+}
+
+h1 span{
+  font-size: 26px;
+  color:#6295A2 ;
+}
+
+
+#signatureCanvas {
+  border: 1px solid #000;
+  width: 800px;
+  height: 200px;
+  display: flex;
+  margin-bottom: 10px;
+}
+
+#clearButton{
+  background: rgba(255, 46, 46, 0.808);
+  border: none;
+  color: white;
+  padding: 10px 10px;
+  width: 100px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#clearButton:active{
+  width: 90px;
+  padding: 8px 8px;
+}
+
+#saveButton{
+  background: rgba(7, 153, 39, 0.808);
+  border: none;
+  color: white;
+  padding: 10px 10px;
+  width: 100px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#saveButton:active{
+  width: 90px;
+  padding: 8px 8px;
+}
+
+#downloadBtn{
+  background: rgba(7, 58, 153, 0.808);
+  border: none;
+  color: white;
+  padding: 10px 10px;
+  width: 100px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#downloadBtn:active{
+  width: 90px;
+  padding: 8px 8px;
+}
